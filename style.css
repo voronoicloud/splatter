@@ -18,4 +18,28 @@ model-viewer {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 100px;
   position: fixed;
+  color: blue;
 }
+
+.b-i {
+  background-image: url('./raster.webp');
+  background-size: cover;
+  width: 100vh;
+  height: 100vh;
+}
+
+@keyframes colorChange {
+            0% {
+                color: blue;
+            }
+            50% {
+                color: pink;
+            }
+            100% {
+                color: blue;
+            }
+        }
+
+.color-change {
+            animation: colorChange 5s infinite;
+        }
