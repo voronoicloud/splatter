@@ -43,3 +43,37 @@ model-viewer {
 .color-change {
             animation: colorChange 5s infinite;
         }
+
+        .blur-text {
+           transition: filter 0.3s ease;
+       }
+
+       .blur-text:hover {
+           filter: blur(5px);
+       }
+
+
+       /* Basisstil für alle Links */
+a {
+    color: black; /* Textfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    transition: color 0.5s ease; /* Übergangseffekt für die Farbe */
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100px;
+}
+
+/* Stil für Links beim Hover */
+a:hover {
+    color: #1f1f1f; /* Ändert die Textfarbe beim Hover */
+    text-decoration: none;
+}
+
+/* Stil für aktive Links */
+a:active {
+    color: green; /* Ändert die Textfarbe, wenn der Link aktiv ist */
+}
+
+/* Stil für besuchte Links */
+a:visited {
+    color: purple; /* Ändert die Textfarbe für besuchte Links */
+}
