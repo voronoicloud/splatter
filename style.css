@@ -75,5 +75,5 @@ a:active {
 
 /* Stil für besuchte Links */
 a:visited {
-    color: purple; /* Ändert die Textfarbe für besuchte Links */
+    color: black; /* Ändert die Textfarbe für besuchte Links */
 }
