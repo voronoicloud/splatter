@@ -77,3 +77,14 @@ a:active {
 a:visited {
     color: black; /* Ändert die Textfarbe für besuchte Links */
 }
+
+@media (max-width: 600px) {
+          .blur-text {
+              font-size: 6vw; /* Größere Schriftgröße für kleinere Bildschirme */
+          }
+      }
+
+      @media (min-width: 1200px) {
+          .blur-text {
+              font-size: 2vw; /* Kleinere Schriftgröße für sehr große Bildschirme */
+          }
