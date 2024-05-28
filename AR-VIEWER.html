@@ -4,26 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AR Model Viewer</title>
+
+
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <style>
-    body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f0f0f0;
-    }
-    model-viewer {
-      width: 100%;
-      height: 100%;
-      max-width: 600px;
-      max-height: 600px;
-    }
-  </style>
-</head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Hanken+Grotesk:wght@900&family=Space+Grotesk:wght@700&display=swap"
+  rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  </head>
 <body>
-  <h1>AR MODEL VIEWER </h1>
+
+
+  <div class="headline">AR MODEL VIEWER </div>
+
+
+  <br>
+
   <model-viewer
     src=".\android-brick-modell.glb"
     ios-src=".\ios-model-brick.usdc"
